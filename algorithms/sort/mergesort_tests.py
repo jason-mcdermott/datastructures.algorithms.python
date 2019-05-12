@@ -9,19 +9,19 @@ class IterativeSearchTests(unittest.TestCase):
 
     def test_1(self):
         """sorted list should have 1 at index 0"""
-        self.assertEqual(sorted[0], 1)
+        self.assertEqual(1, sorted[0])
 
     def test_2(self):
         """sorted list should have 2 at index 1"""
-        self.assertEqual(sorted[1], 2)
+        self.assertEqual(2, sorted[1])
 
     def test_3(self):
         """sorted list have 5 at index 4"""
-        self.assertEqual(sorted[4], 5)
+        self.assertEqual(5, sorted[4])
 
     def test_4(self):
         """sorted list have 10 at index 9"""
-        self.assertEqual(sorted[9], 10)
+        self.assertEqual(10, sorted[9])
 
 if __name__ == '__main__':
     unittest.main()
